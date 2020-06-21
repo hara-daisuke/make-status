@@ -25,6 +25,8 @@
                 </div>
             </nav>
         </header>
+        
+        @include('commons.error_tasks')
 
         <div class="container">
             @yield('content')
